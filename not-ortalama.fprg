@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="NotOrtalamaHesaplama"/>
+        <attribute name="authors" value="Okul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-06 11:16:37 &#214;&#214;"/>
+        <attribute name="created" value="T2t1bDtMQUI2LTE0OzIwMjQtMTEtMDY7MTE6MTI6Mzkgw5bDljsyMzY2"/>
+        <attribute name="edited" value="T2t1bDtMQUI2LTE0OzIwMjQtMTEtMDY7MTE6MTY6Mzcgw5bDljsxOzI0NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="not1" type="Integer" array="False" size=""/>
+            <declare name="not2" type="Integer" array="False" size=""/>
+            <declare name="ortalama" type="Real" array="False" size=""/>
+            <input variable="not1"/>
+            <input variable="not2"/>
+            <assign variable="ortalama" expression="(not1 + not2)/2"/>
+            <output expression="ortalama" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
